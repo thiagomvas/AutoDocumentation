@@ -27,9 +27,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet eui
 public Void Deposit (Double amount)
 ```
 ### Parameters
-| Parameter Name | Type | Description |
+
+| Header 1 | Header 2 | Header 3 |
 | --------- | --------- | --------- |
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 
 ## `Method` Withdraw
@@ -38,9 +41,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet eui
 public Void Withdraw (Double amount)
 ```
 ### Parameters
-| Parameter Name | Type | Description |
+
+| Header 1 | Header 2 | Header 3 |
 | --------- | --------- | --------- |
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 
 ## `Method` TransferTo
@@ -49,10 +55,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet eui
 public Void TransferTo (BankAccount destinationAccount, Double amount)
 ```
 ### Parameters
-| Parameter Name | Type | Description |
+
+| Header 1 | Header 2 | Header 3 |
 | --------- | --------- | --------- |
-| destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 
 ## `Method` DisplayAccountInfo
@@ -96,9 +104,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet eui
 public Boolean Equals (Object obj)
 ```
 ### Parameters
-| Parameter Name | Type | Description |
+
+| Header 1 | Header 2 | Header 3 |
 | --------- | --------- | --------- |
-| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
 
 
 ## `Method` GetHashCode

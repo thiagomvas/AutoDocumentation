@@ -185,12 +185,12 @@ namespace AutoDocumentation
             if(Parameters.Count > 0)
             {
                 doc.AppendLine("### Parameters");
-                doc.AppendLine("| Parameter Name | Type | Description |");
+                doc.AppendLine();
+                doc.AppendLine("| Header 1 | Header 2 | Header 3 |");
                 doc.AppendLine("| --------- | --------- | --------- |");
-            }
-            foreach (ParameterInfo param in Parameters)
-            {
-                doc.AppendLine($"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |");
+                doc.AppendLine("| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |");
+                doc.AppendLine("| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |");
+                doc.AppendLine("| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |");
             }
 
             doc.AppendLine();
