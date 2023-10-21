@@ -43,7 +43,7 @@ public Void TransferTo (BankAccount destinationAccount, Double amount)
 ### Parameters
 | Parameter Name  | Type      | Description                            |
 |------------------|-----------|----------------------------------------|
-|destinationAccount | [BankAccount](docs\Classes\BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+|destinationAccount | [BankAccount](..\..\docs\Classes\BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 |amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 ## `Method` DisplayAccountInfo

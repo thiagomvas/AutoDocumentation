@@ -33,7 +33,7 @@ public Void SetBankAccount (BankAccount bankAccount)
 ### Parameters
 | Parameter Name  | Type      | Description                            |
 |------------------|-----------|----------------------------------------|
-|bankAccount | [BankAccount](docs\Classes\BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+|bankAccount | [BankAccount](..\..\docs\Classes\BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 ## `Method` SetMaxConnections
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 

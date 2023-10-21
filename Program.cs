@@ -182,7 +182,7 @@ $@"
 ";
             foreach (ParameterInfo param in Parameters)
             {
-                text += $"|{param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |\n";
+                text += $"|{param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}](..\\..\\{param.LinkPath})" : param.Type)} | {param.Description} |\n";
             }
             return text;
         }
