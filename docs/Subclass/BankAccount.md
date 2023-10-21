@@ -1,54 +1,55 @@
-# Configuration
+# BankAccount
 
-## `Field` account
+## `Field` accountNumber
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-private static BankAccount account
+private String accountNumber
 ```
-## `Field` apiKey
+## `Field` accountHolder
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-private static String apiKey
+private String accountHolder
 ```
-## `Field` maxConnections
+## `Field` balance
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-private static Int32 maxConnections
+private Double balance
 ```
-## `Method` SetApiKey
+## `Method` Deposit
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-public Void SetApiKey (String newApiKey)
+public Void Deposit (Double amount)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
 |------------------|-----------|----------------------------------------|
-| newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
-## `Method` SetBankAccount
+## `Method` Withdraw
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-public Void SetBankAccount (BankAccount bankAccount)
+public Void Withdraw (Double amount)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
 |------------------|-----------|----------------------------------------|
-| bankAccount | [BankAccount](..\..\docs\Classes\BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
-## `Method` SetMaxConnections
+## `Method` TransferTo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-public Void SetMaxConnections (Int32 newMaxConnections)
+public Void TransferTo (BankAccount destinationAccount, Double amount)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
 |------------------|-----------|----------------------------------------|
-| newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.md) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
-## `Method` DisplayConfig
+## `Method` DisplayAccountInfo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
-public Void DisplayConfig ()
+public Void DisplayAccountInfo ()
 ```
 ## `Method` GetType
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
