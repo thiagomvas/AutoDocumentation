@@ -22,8 +22,8 @@ public Void SetApiKey (String newApiKey)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|| newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-
+|------------------|-----------|----------------------------------------|
+| newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 ## `Method` SetBankAccount
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
@@ -31,8 +31,8 @@ public Void SetBankAccount (BankAccount bankAccount)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|| bankAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-
+|------------------|-----------|----------------------------------------|
+| bankAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 ## `Method` SetMaxConnections
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
@@ -40,8 +40,8 @@ public Void SetMaxConnections (Int32 newMaxConnections)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|| newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-
+|------------------|-----------|----------------------------------------|
+| newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 ## `Method` DisplayConfig
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
@@ -74,8 +74,8 @@ public Boolean Equals (Object obj)
 ```
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-
+|------------------|-----------|----------------------------------------|
+| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 ## `Method` GetHashCode
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
 ```csharp
