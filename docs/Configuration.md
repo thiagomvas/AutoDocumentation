@@ -28,11 +28,9 @@ public Void SetApiKey (String newApiKey)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` SetBankAccount
@@ -42,11 +40,9 @@ public Void SetBankAccount (BankAccount bankAccount)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| bankAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` SetMaxConnections
@@ -56,11 +52,9 @@ public Void SetMaxConnections (Int32 newMaxConnections)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` DisplayConfig
@@ -105,11 +99,9 @@ public Boolean Equals (Object obj)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` GetHashCode

@@ -28,11 +28,9 @@ public Void Deposit (Double amount)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` Withdraw
@@ -42,11 +40,9 @@ public Void Withdraw (Double amount)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` TransferTo
@@ -56,11 +52,10 @@ public Void TransferTo (BankAccount destinationAccount, Double amount)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` DisplayAccountInfo
@@ -105,11 +100,9 @@ public Boolean Equals (Object obj)
 ```
 ### Parameters
 
-| Header 1 | Header 2 | Header 3 |
+| Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 
 ## `Method` GetHashCode
