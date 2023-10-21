@@ -183,8 +183,8 @@ $@"
             if (Parameters.Count > 0)
                 text += @"
 ### Parameters
-| Parameter Name  | Type      | Description                            |
-|--|--|--|";
+| Parameter Name | Type | Description |
+| -------- | -------- | -------- |";
             foreach (ParameterInfo param in Parameters)
             {
                 text += 
