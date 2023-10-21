@@ -130,7 +130,7 @@ namespace AutoDocumentation
                     {
                         if (t.type == param.ParameterType)
                         {
-                            link = Path.Combine("https://thiagomvas.github.io/AutoDocumentation/", t.relativePathToDocs.Split("docs\\")[1].Replace('\\', '/'));
+                            link = Path.Combine("https://thiagomvas.github.io/AutoDocumentation/", t.relativePathToDocs.Split("docs\\")[1].Replace('\\', '/').Replace(".md", ".html"));
                             break;
                         }
 
@@ -184,8 +184,7 @@ $@"
                 text += @"
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|
-";
+|------------------|-----------|----------------------------------------|";
             foreach (ParameterInfo param in Parameters)
             {
                 text += $"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |\n";
