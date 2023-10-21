@@ -1,20 +1,27 @@
 # BankAccount
-`Field` accountNumber
+
+## `Field` accountNumber
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private String accountNumber
 ```
-`Field` accountHolder
+
+
+## `Field` accountHolder
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private String accountHolder
 ```
-`Field` balance
+
+
+## `Field` balance
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private Double balance
 ```
-`Method` Deposit
+
+
+## `Method` Deposit
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void Deposit (Double amount)
@@ -23,7 +30,9 @@ public Void Deposit (Double amount)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` Withdraw
+
+
+## `Method` Withdraw
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void Withdraw (Double amount)
@@ -32,7 +41,9 @@ public Void Withdraw (Double amount)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` TransferTo
+
+
+## `Method` TransferTo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void TransferTo (BankAccount destinationAccount, Double amount)
@@ -42,32 +53,44 @@ public Void TransferTo (BankAccount destinationAccount, Double amount)
 | --------- | --------- | --------- |
 | destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 | amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` DisplayAccountInfo
+
+
+## `Method` DisplayAccountInfo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void DisplayAccountInfo ()
 ```
-`Method` GetType
+
+
+## `Method` GetType
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Type GetType ()
 ```
-`Method` MemberwiseClone
+
+
+## `Method` MemberwiseClone
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private Object MemberwiseClone ()
 ```
-`Method` Finalize
+
+
+## `Method` Finalize
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private Void Finalize ()
 ```
-`Method` ToString
+
+
+## `Method` ToString
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public String ToString ()
 ```
-`Method` Equals
+
+
+## `Method` Equals
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Boolean Equals (Object obj)
@@ -76,8 +99,11 @@ public Boolean Equals (Object obj)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` GetHashCode
+
+
+## `Method` GetHashCode
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Int32 GetHashCode ()
 ```
+

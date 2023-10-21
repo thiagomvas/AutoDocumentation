@@ -1,20 +1,27 @@
 # Configuration
-`Field` account
+
+## `Field` account
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private static BankAccount account
 ```
-`Field` apiKey
+
+
+## `Field` apiKey
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private static String apiKey
 ```
-`Field` maxConnections
+
+
+## `Field` maxConnections
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private static Int32 maxConnections
 ```
-`Method` SetApiKey
+
+
+## `Method` SetApiKey
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void SetApiKey (String newApiKey)
@@ -23,7 +30,9 @@ public Void SetApiKey (String newApiKey)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` SetBankAccount
+
+
+## `Method` SetBankAccount
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void SetBankAccount (BankAccount bankAccount)
@@ -32,7 +41,9 @@ public Void SetBankAccount (BankAccount bankAccount)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | bankAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` SetMaxConnections
+
+
+## `Method` SetMaxConnections
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void SetMaxConnections (Int32 newMaxConnections)
@@ -41,32 +52,44 @@ public Void SetMaxConnections (Int32 newMaxConnections)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` DisplayConfig
+
+
+## `Method` DisplayConfig
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Void DisplayConfig ()
 ```
-`Method` GetType
+
+
+## `Method` GetType
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Type GetType ()
 ```
-`Method` MemberwiseClone
+
+
+## `Method` MemberwiseClone
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private Object MemberwiseClone ()
 ```
-`Method` Finalize
+
+
+## `Method` Finalize
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 private Void Finalize ()
 ```
-`Method` ToString
+
+
+## `Method` ToString
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public String ToString ()
 ```
-`Method` Equals
+
+
+## `Method` Equals
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Boolean Equals (Object obj)
@@ -75,8 +98,11 @@ public Boolean Equals (Object obj)
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
 | obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-`Method` GetHashCode
+
+
+## `Method` GetHashCode
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
 public Int32 GetHashCode ()
 ```
+

@@ -175,7 +175,8 @@ namespace AutoDocumentation
         public override string ToString()
         {
             StringBuilder doc = new();
-            doc.AppendLine($"`{type}` {Title}");
+            doc.AppendLine();
+            doc.AppendLine($"## `{type}` {Title}");
             doc.AppendLine(Summary);
             doc.AppendLine("```csharp");
             doc.AppendLine(Signature);
@@ -192,6 +193,7 @@ namespace AutoDocumentation
                 doc.AppendLine($"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |");
             }
 
+            doc.AppendLine();
             return doc.ToString();
         }
 
