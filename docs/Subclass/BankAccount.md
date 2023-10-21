@@ -22,7 +22,7 @@ public Void Deposit (Double amount)
 ### Parameters
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 `Method` Withdraw
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
@@ -31,7 +31,7 @@ public Void Withdraw (Double amount)
 ### Parameters
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 `Method` TransferTo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
@@ -40,8 +40,8 @@ public Void TransferTo (BankAccount destinationAccount, Double amount)
 ### Parameters
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| destinationAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| amount | System.Double | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 `Method` DisplayAccountInfo
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp
@@ -75,7 +75,7 @@ public Boolean Equals (Object obj)
 ### Parameters
 | Parameter Name | Type | Description |
 | --------- | --------- | --------- |
-| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 `Method` GetHashCode
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. 
 ```csharp

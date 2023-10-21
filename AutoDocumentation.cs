@@ -189,7 +189,7 @@ namespace AutoDocumentation
             }
             foreach (ParameterInfo param in Parameters)
             {
-                doc.AppendLine($"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description}");
+                doc.AppendLine($"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |");
             }
 
             return doc.ToString();
