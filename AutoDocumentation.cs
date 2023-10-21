@@ -165,7 +165,7 @@ namespace AutoDocumentation
     public class DocsMember
     {
         public string Title { get; set; }
-        public string Summary { get; set; } = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. ";
+        public string Summary { get; set; } = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. ";
         public string Signature { get; set; }
         public List<ParameterInfo> Parameters { get; set; } = new();
         public enum DocType { Field, Property, Method }
