@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Text;
 
 namespace AutoDocumentation
 {
@@ -173,25 +174,25 @@ namespace AutoDocumentation
 
         public override string ToString()
         {
-            var text =
-$@"
-## `{type}` {Title}
-{Summary}
-```csharp
-{Signature}
-```";
-            if (Parameters.Count > 0)
-                text += @"
-### Parameters
-| Parameter Name | Type | Description |
-| -------- | -------- | -------- |";
+            StringBuilder doc = new();
+            doc.AppendLine($"`{type}` {Title}");
+            doc.AppendLine(Summary);
+            doc.AppendLine("```csharp");
+            doc.AppendLine(Signature);
+            doc.AppendLine("```");
+
+            if(Parameters.Count > 0)
+            {
+                doc.AppendLine("### Parameters");
+                doc.AppendLine("| Parameter Name | Type | Description |");
+                doc.AppendLine("| --------- | --------- | --------- |");
+            }
             foreach (ParameterInfo param in Parameters)
             {
-                text += 
-@$"
-| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |";
+                doc.AppendLine($"| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description}");
             }
-            return text;
+
+            return doc.ToString();
         }
 
     }
