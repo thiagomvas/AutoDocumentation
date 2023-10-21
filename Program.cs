@@ -6,7 +6,6 @@ namespace MarkdownDocumentationFromSummaries
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Type.GetType("BankAccount"));
             IterateFilesAndFolders("C:\\Users\\Thiago\\source\\repos\\MarkdownDocumentationFromSummaries");
         }
 
@@ -22,7 +21,7 @@ namespace MarkdownDocumentationFromSummaries
                 {
                     if (file.Substring(file.IndexOf('.') + 1) != "cs") continue;
                     string fileName = Path.GetFileName(file.Substring(0, file.IndexOf('.')));
-                    string path = Path.Combine(new string[] { "docs", currentPath, fileName });
+                    string path = Path.Combine(new string[] { "docs", currentPath, $"{fileName}.md"});
 
                     Type type = Type.GetType(fileName);
                     if(type != null)
@@ -62,7 +61,7 @@ namespace MarkdownDocumentationFromSummaries
         // Method to determine whether to skip a folder
         private static bool ShouldSkipFolder(string folderName)
         {
-            string[] foldersToSkip = { "obj", "bin", ".vs" }; // Add more folder names as needed
+            string[] foldersToSkip = { "obj", "bin", ".vs", ".git", "docs" }; // Add more folder names as needed
 
             foreach (string folderToSkip in foldersToSkip)
             {
@@ -141,7 +140,7 @@ namespace MarkdownDocumentationFromSummaries
 
         static void WriteTextToFile(string text, string fileName)
         {
-            string filePath = $"C:\\Users\\Thiago\\source\\repos\\MarkdownDocumentationFromSummaries\\{fileName}.md";
+            string filePath = $"C:\\Users\\Thiago\\source\\repos\\MarkdownDocumentationFromSummaries\\{fileName}";
             try
             {
                 // Write the text to the specified file.
