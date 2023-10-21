@@ -184,10 +184,12 @@ $@"
                 text += @"
 ### Parameters
 | Parameter Name  | Type      | Description                            |
-|------------------|-----------|----------------------------------------|";
+|--|--|--|";
             foreach (ParameterInfo param in Parameters)
             {
-                text += $"\n| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |";
+                text += 
+@$"
+| {param.Name} | {(!string.IsNullOrWhiteSpace(param.LinkPath) ? $"[{param.Type}]({param.LinkPath})" : param.Type)} | {param.Description} |";
             }
             return text;
         }
