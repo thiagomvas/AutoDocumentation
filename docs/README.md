@@ -1,83 +1,99 @@
-# Configuration
+# Markdown Example
 
-## `Field` account
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-private static BankAccount account
+This is a Markdown file that demonstrates various Markdown elements.
+
+## Headers
+
+You can create headers using the `#` symbol, like this:
 ```
-## `Field` apiKey
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-private static String apiKey
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 ```
-## `Field` maxConnections
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-private static Int32 maxConnections
+
+## Emphasis
+
+You can make text *italic* using asterisks or underscores:
+- `*italic*` or `_italic_`
+
+You can make text **bold** using double asterisks or underscores:
+- `**bold**` or `__bold__`
+
+## Lists
+
+### Unordered List
+- Item 1
+- Item 2
+- Item 3
+
+### Ordered List
+1. First item
+2. Second item
+3. Third item
+
+## Links
+
+You can create [links](https://www.example.com) like this:
 ```
-## `Method` SetApiKey
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Void SetApiKey (String newApiKey)
+[Link Text](URL)
 ```
-### Parameters
-| Parameter Name  | Type | Description |
-|-|--|---|
-| newApiKey | System.String | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-## `Method` SetBankAccount
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Void SetBankAccount (BankAccount bankAccount)
+
+## Images
+
+You can include images like this:
 ```
-### Parameters
-| Parameter Name  | Type | Description |
-|-|--|---|
-| bankAccount | [BankAccount](https://thiagomvas.github.io/AutoDocumentation/Subclass/BankAccount.html) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-## `Method` SetMaxConnections
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Void SetMaxConnections (Int32 newMaxConnections)
+![Alt Text](image.jpg)
 ```
-### Parameters
-| Parameter Name  | Type | Description |
-|-|--|---|
-| newMaxConnections | System.Int32 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-## `Method` DisplayConfig
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Void DisplayConfig ()
+
+## Code
+
+You can display inline code using backticks:
 ```
-## `Method` GetType
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Type GetType ()
+This is `inline code`.
 ```
-## `Method` MemberwiseClone
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
+
+You can also create code blocks:
 ```csharp
-private Object MemberwiseClone ()
+public class HelloWorld
+{
+    public static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
 ```
-## `Method` Finalize
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-private Void Finalize ()
+
+## Blockquotes
+
+> This is a blockquote.
+> You can add multiple lines.
+
+## Horizontal Rule
+
+You can create a horizontal rule using three or more hyphens, asterisks, or underscores:
 ```
-## `Method` ToString
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public String ToString ()
+---
+* * *
+___
 ```
-## `Method` Equals
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Boolean Equals (Object obj)
-```
-### Parameters
-| Parameter Name  | Type | Description |
-|-|--|---|
-| obj | System.Object | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-## `Method` GetHashCode
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet euismod risus, vitae iaculis libero placerat vitae. Vestibulum ac feugiat risus, ac egestas justo. 
-```csharp
-public Int32 GetHashCode ()
-```
+
+## Tables
+
+You can create tables like this:
+
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Row 1, Cell 1 | Row 1, Cell 2 |
+| Row 2, Cell 1 | Row 2, Cell 2 |
+
+## Escape Characters
+
+If you want to display special characters like \* or \_, you can use a backslash `\` to escape them.
+
+## Conclusion
+
+This is just a basic example of Markdown. You can explore more Markdown features and syntax to create rich documents.
+
